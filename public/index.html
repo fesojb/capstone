@@ -19,7 +19,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>AOPA OARS</title>
   </head>
   <body>
     <noscript>
@@ -37,4 +37,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC07ypApyL4j7v7Dv73-_221629-Xh0C0U",
+        authDomain: "capstone-bass.firebaseapp.com",
+        databaseURL: "https://capstone-bass.firebaseio.com",
+        projectId: "capstone-bass",
+        storageBucket: "capstone-bass.appspot.com",
+        messagingSenderId: "1049061771681"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="/__/firebase/4.6.2/firebase-app.js"></script>
+    <script src="/__/firebase/4.6.2/firebase-auth.js"></script>
+    <script src="/__/firebase/4.6.2/firebase-database.js"></script>
+    <script src="/__/firebase/4.6.2/firebase-messaging.js"></script>
+
+    <!-- Leave out Storage -->
+    <!-- <script src="/__/firebase/4.6.2/firebase-storage.js"></script> -->
+
+    <script src="/__/firebase/init.js"></script>
 </html>
