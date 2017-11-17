@@ -1,0 +1,36 @@
+[debug] [2017-11-14T22:03:09.960Z] ----------------------------------------------------------------------
+[debug] [2017-11-14T22:03:09.960Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Josef\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --project capstone-bass
+[debug] [2017-11-14T22:03:09.960Z] CLI Version:   3.15.0
+[debug] [2017-11-14T22:03:09.960Z] Platform:      win32
+[debug] [2017-11-14T22:03:09.960Z] Node Version:  v6.11.5
+[debug] [2017-11-14T22:03:09.960Z] Time:          Tue Nov 14 2017 14:03:09 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:09.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-14T22:03:09.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-14T22:03:09.976Z] > authorizing via signed-in user
+[debug] [2017-11-14T22:03:09.976Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-14T22:03:09.976Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/CWWkfDZmMTznXoJn_Oo7Q_S7KE3UvMppRfas7mmaYgLALj65OehqCuAmbtDZ6qIP',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Nov 14 2017 14:03:09 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:10.103Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-14T22:03:10.103Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/capstone-bass  
+ Tue Nov 14 2017 14:03:10 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:10.502Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-14T22:03:10.502Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/capstone-bass/tokens  
+ Tue Nov 14 2017 14:03:10 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:10.957Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Josef\code\capstone'...
+[info] 
+[debug] [2017-11-14T22:03:10.965Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/capstone-bass  
+ Tue Nov 14 2017 14:03:10 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:11.305Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-14T22:03:11.305Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1049061771681/clients/_:getWebAppConfig  
+ Tue Nov 14 2017 14:03:11 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-14T22:03:11.638Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
